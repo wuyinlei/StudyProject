@@ -7,10 +7,10 @@
           <element id="module-output" name="ocWechat" />
         </element>
         <element id="directory" name="lib">
-          <element id="archive" name="ocService-0.0.1-SNAPSHOT.jar">
+          <element id="archive" name="ocService-1.0.0-SNAPSHOT.jar">
             <element id="module-output" name="ocService" />
           </element>
-          <element id="archive" name="ocCommon-0.0.1-SNAPSHOT.jar">
+          <element id="archive" name="ocCommon-1.0.0-SNAPSHOT.jar">
             <element id="module-output" name="ocCommon" />
           </element>
           <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.6.2" />
