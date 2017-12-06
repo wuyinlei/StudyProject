@@ -101,6 +101,6 @@
 	    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver" />
 		 
 		<!-- 引入shiro -->
-      <!--   <import resource="shiro.xml" /> -->
+     <!--   <import resource="shiro.xml" /> -->
 		 
 </beans>

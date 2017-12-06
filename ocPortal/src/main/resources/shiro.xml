@@ -25,7 +25,7 @@
     </bean>
 
     <!-- 自定义Realm -->
-    <bean id="authRealm" class="com.online.college.web.auth.AuthRealm"></bean>
+    <bean id="authRealm" class="com.online.web.auth.AuthRealm"></bean>
 
     <!-- 保存在内存 -->
     <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
@@ -35,7 +35,7 @@
     <bean id="lifecycleBeanPostProcessor" class="org.apache.shiro.spring.LifecycleBeanPostProcessor"/>
 
     <!-- 自定义 filter -->
-    <bean id="authFilter" class="com.online.college.web.auth.AuthFilter" />
+    <bean id="authFilter" class="com.online.web.auth.AuthFilter" />
 
     <bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
         <property name="securityManager" ref="securityManager" />
